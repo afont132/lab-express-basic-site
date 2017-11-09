@@ -1,7 +1,7 @@
 body {
   width: 98%;
   margin: 0 auto;
-  background-color: #F8C58C;
+  background-color: #D9AC7A;
 }
 
 h1 {
@@ -26,7 +26,7 @@ p {
 }
 
 .poster-wrap {
-  background-color: #F8C531;
+  background-color: #DCCC3C;
   border: 2px solid black;
   height: 98%;
   margin: 30px;
@@ -39,9 +39,52 @@ p {
   font-size: 30px;
   padding: 3px 0;
   border-top: 2px solid black;
-  border-bottom: 1px solid black;
+  border-bottom: 2px solid black;
+}
+
+.boxerImg {
+  height: 400px;
+
+}
+
+.boxerNames-flex {
+  display: flex;
+  justify-content: space-between;
+  flex-flow: row;
+  background-color: #DE0000;
+  border-top: 2px solid black;
+}
+
+.name {
+  color: #fff;
+}
+
+.boxer1 {
+  margin-left: 55px;
+}
+
+.vs {
+  margin-top: 35px;
+  border-radius: 50%;
+  border-style: solid;
+  border-color: #000;
+  background-color: #D9AC7A;
+  font-size: 25px;
+  color: #000;
+  vertical-align: middle;
+  width: 140px;
+  height: 140px;
+  line-height: 2;
+}
+
+.boxer2 {
+  margin-right: 55px;
 }
 
 span {
   text-decoration: underline;
+}
+
+.bottomPoster {
+  height: 200px;
 }

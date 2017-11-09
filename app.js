@@ -19,4 +19,4 @@ app.get("/photos", (request, response, next) => {
   response.render("photos.ejs");
 });
 
-app.listen(3000);
+app.listen(3001);
