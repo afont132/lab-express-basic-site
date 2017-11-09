@@ -1,0 +1,47 @@
+body {
+  width: 98%;
+  margin: 0 auto;
+  background-color: #F8C58C;
+}
+
+h1 {
+  font-size: 45px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 30px;
+  text-align: center;
+  color: #DE0000;
+}
+
+p {
+  text-align: center;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+  flex-flow: column;
+}
+
+.poster-wrap {
+  background-color: #F8C531;
+  border: 2px solid black;
+  height: 98%;
+  margin: 30px;
+}
+
+.dateBreak {
+  text-align: center;
+  color: #fff;
+  background-color: #DE0000;
+  font-size: 30px;
+  padding: 3px 0;
+  border-top: 2px solid black;
+  border-bottom: 1px solid black;
+}
+
+span {
+  text-decoration: underline;
+}
